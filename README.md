@@ -1,48 +1,47 @@
-# C - Simple Shell
+# A BASIC LINUX INTERPRETER
 
-This project is an implementation of the shell created as the final project for the C code sprint at **ALX Africa**.
+## Compilation and Usage
 
-## Table of contents :clipboard:
+### 1. Compilation
+* First clone the repository.
+> `
+> git clone https://<YOUR_PAT>@github.com/mbunifu/simple_shell.git
+`
+* After cloning the repository, change your current working directory to the just cloned directory and compile the source files using the following commands.
+did just that
 
- - [Description]
- - [Installation]
- - [Usage]
- - [Example]
- - [Contributors]
- - [Acknowledgements]
-## Description :e-mail:
-This is a shell written in [C](https://en.wikipedia.org/wiki/C_(programming_language)).
-It is based on [the Thompson Shell](https://en.wikipedia.org/wiki/Thompson_shell).
+> ```
+> (eddy@Xandex-PC)-[~]
+> -$ cd simple_shell
+>
+> (eddy@Xandex-PC)-[~/simple_shell]
+> -$ gcc *.c -o hsh
+>
+> (eddy@Xandex-PC)-[~/simple_shell]
+> -$
+> ```
 
-## Installation :wrench:
-Clone the below repository and compile the files into an executable using the GCC compiler.
+
+### 2. Usage
+* To run simply type ./hsh
+> ```
+> (eddy@Xandex-PC)-[~/simple_shell]
+> -$ ./hsh
+> $
+> ```
+
+* To exit just type `exit` or hit 'Ctrl+D'.
+
+## Unsuported features
+
+* The following features have not yet been implemented
+  1. Shell I/O Redirection
+  2. Piping
+* and some other features.
+
+# For Contributors
+* To push back to the repo do the following
 ```
-https://github.com/mbunifu/simple_shell.git.
+(eddy@Xandex-PC)-[~/simple_shell]
+-$ git push -u origin master
 ```
-##Environment :evergreen_tree::evergreen_tree:
-
-Our shell was built and tested on  Ubuntu 14.04 LTS.
-
-### Basic usage :bulb:
-- First, [fork this repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
-- Then [clone it to your local machine](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
-- Create an executable by running the following command:
-- `gcc -Wall -Werror -Wextra -pedantic *.c -o hsh`
-- From there, type in the following command and press your enter button.
-- `./hsh`
-- Final step: ENJOY!
-
-## Example :computer:
-```
-ls -la
-```
-![screenshot of shell](https://user-images.githubusercontent.com/30075600/114757753-e50c2180-9d64-11eb-95ea-fb9bba776c8c.png)
-
-## Contributors :sunglasses::muscle:
-* [**Nicholas Murimi**](https://github.com/mbunifu)
-* [**Zougue Edmond**](https://github.com/colonelzatazi)
-## Acknowledgments :pray:
-- Our fellow cohort members.
-- The creators of the C language.
-- Our software engineer-in-residence.
-- ALX Team
